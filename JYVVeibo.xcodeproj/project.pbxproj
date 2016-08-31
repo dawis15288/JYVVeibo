@@ -12,6 +12,14 @@
 		69F11DC31D77262C00547DA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69F11DC11D77262C00547DA8 /* Main.storyboard */; };
 		69F11DC51D77262C00547DA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69F11DC41D77262C00547DA8 /* Assets.xcassets */; };
 		69F11DC81D77262C00547DA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69F11DC61D77262C00547DA8 /* LaunchScreen.storyboard */; };
+		69F11DE11D77267000547DA8 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F11DCF1D77267000547DA8 /* ProfileViewController.swift */; };
+		69F11DE21D77267000547DA8 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F11DD11D77267000547DA8 /* DiscoverViewController.swift */; };
+		69F11DE31D77267000547DA8 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F11DD31D77267000547DA8 /* MessageViewController.swift */; };
+		69F11DE41D77267000547DA8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F11DD51D77267000547DA8 /* HomeViewController.swift */; };
+		69F11DE51D77267000547DA8 /* JYMainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F11DD71D77267000547DA8 /* JYMainController.swift */; };
+		69F11DE61D77267000547DA8 /* JYBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F11DD81D77267000547DA8 /* JYBaseViewController.swift */; };
+		69F11DE71D77267000547DA8 /* JYNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F11DD91D77267000547DA8 /* JYNavigationController.swift */; };
+		69F11DE81D77267000547DA8 /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F11DDE1D77267000547DA8 /* Bundle+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,14 @@
 		69F11DC41D77262C00547DA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69F11DC71D77262C00547DA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		69F11DC91D77262C00547DA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69F11DCF1D77267000547DA8 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		69F11DD11D77267000547DA8 /* DiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
+		69F11DD31D77267000547DA8 /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		69F11DD51D77267000547DA8 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		69F11DD71D77267000547DA8 /* JYMainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYMainController.swift; sourceTree = "<group>"; };
+		69F11DD81D77267000547DA8 /* JYBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYBaseViewController.swift; sourceTree = "<group>"; };
+		69F11DD91D77267000547DA8 /* JYNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYNavigationController.swift; sourceTree = "<group>"; };
+		69F11DDE1D77267000547DA8 /* Bundle+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 		69F11DBC1D77262C00547DA8 /* JYVVeibo */ = {
 			isa = PBXGroup;
 			children = (
+				69F11DE01D77267000547DA8 /* Class */,
 				69F11DBD1D77262C00547DA8 /* AppDelegate.swift */,
 				69F11DBF1D77262C00547DA8 /* ViewController.swift */,
 				69F11DC11D77262C00547DA8 /* Main.storyboard */,
@@ -62,6 +79,94 @@
 				69F11DC91D77262C00547DA8 /* Info.plist */,
 			);
 			path = JYVVeibo;
+			sourceTree = "<group>";
+		};
+		69F11DD01D77267000547DA8 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				69F11DCF1D77267000547DA8 /* ProfileViewController.swift */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		69F11DD21D77267000547DA8 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				69F11DD11D77267000547DA8 /* DiscoverViewController.swift */,
+			);
+			name = Discover;
+			sourceTree = "<group>";
+		};
+		69F11DD41D77267000547DA8 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				69F11DD31D77267000547DA8 /* MessageViewController.swift */,
+			);
+			name = Message;
+			sourceTree = "<group>";
+		};
+		69F11DD61D77267000547DA8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				69F11DD51D77267000547DA8 /* HomeViewController.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		69F11DDA1D77267000547DA8 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				69F11DD71D77267000547DA8 /* JYMainController.swift */,
+				69F11DD81D77267000547DA8 /* JYBaseViewController.swift */,
+				69F11DD91D77267000547DA8 /* JYNavigationController.swift */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		69F11DDB1D77267000547DA8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				69F11DD01D77267000547DA8 /* Profile */,
+				69F11DD21D77267000547DA8 /* Discover */,
+				69F11DD41D77267000547DA8 /* Message */,
+				69F11DD61D77267000547DA8 /* Home */,
+				69F11DDA1D77267000547DA8 /* Main */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		69F11DDC1D77267000547DA8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		69F11DDD1D77267000547DA8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		69F11DDF1D77267000547DA8 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				69F11DDE1D77267000547DA8 /* Bundle+Extension.swift */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		69F11DE01D77267000547DA8 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				69F11DDB1D77267000547DA8 /* View */,
+				69F11DDC1D77267000547DA8 /* ViewModel */,
+				69F11DDD1D77267000547DA8 /* Model */,
+				69F11DDF1D77267000547DA8 /* Tools */,
+			);
+			name = Class;
+			path = "../../JYWeibo-git/JYWeibo-git";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +241,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69F11DE11D77267000547DA8 /* ProfileViewController.swift in Sources */,
+				69F11DE81D77267000547DA8 /* Bundle+Extension.swift in Sources */,
+				69F11DE21D77267000547DA8 /* DiscoverViewController.swift in Sources */,
+				69F11DE61D77267000547DA8 /* JYBaseViewController.swift in Sources */,
+				69F11DE51D77267000547DA8 /* JYMainController.swift in Sources */,
+				69F11DE71D77267000547DA8 /* JYNavigationController.swift in Sources */,
 				69F11DC01D77262C00547DA8 /* ViewController.swift in Sources */,
 				69F11DBE1D77262C00547DA8 /* AppDelegate.swift in Sources */,
+				69F11DE31D77267000547DA8 /* MessageViewController.swift in Sources */,
+				69F11DE41D77267000547DA8 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
