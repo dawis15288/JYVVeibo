@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69B9EDF01D850EB500938335 /* Main.json in Resources */ = {isa = PBXBuildFile; fileRef = 69B9EDEF1D850EB500938335 /* Main.json */; };
 		69F11DBE1D77262C00547DA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F11DBD1D77262C00547DA8 /* AppDelegate.swift */; };
 		69F11DC01D77262C00547DA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F11DBF1D77262C00547DA8 /* ViewController.swift */; };
 		69F11DC31D77262C00547DA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69F11DC11D77262C00547DA8 /* Main.storyboard */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		69B9EDEF1D850EB500938335 /* Main.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Main.json; sourceTree = "<group>"; };
 		69F11DBA1D77262C00547DA8 /* JYVVeibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JYVVeibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69F11DBD1D77262C00547DA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69F11DBF1D77262C00547DA8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +53,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		69B9EDEE1D850E9B00938335 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				69B9EDEF1D850EB500938335 /* Main.json */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
 		69F11DB11D77262C00547DA8 = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +126,7 @@
 		69F11DDA1D77267000547DA8 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				69B9EDEE1D850E9B00938335 /* Resource */,
 				69F11DD71D77267000547DA8 /* JYMainController.swift */,
 				69F11DD81D77267000547DA8 /* JYBaseViewController.swift */,
 				69F11DD91D77267000547DA8 /* JYNavigationController.swift */,
@@ -230,6 +241,7 @@
 			files = (
 				69F11DC81D77262C00547DA8 /* LaunchScreen.storyboard in Resources */,
 				69F11DC51D77262C00547DA8 /* Assets.xcassets in Resources */,
+				69B9EDF01D850EB500938335 /* Main.json in Resources */,
 				69F11DC31D77262C00547DA8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -406,6 +418,7 @@
 				69F11DCE1D77262C00547DA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
